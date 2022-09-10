@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+  background: #424242;
+}
+
+
+.scroll {
+  padding: 20px 30px 0;
+  max-width: 400px;
+  max-height: 310px;
+  background: #ffffff;
+}
+
+.simplebar-scrollbar:before{
+  background: #CCB26E;
+}

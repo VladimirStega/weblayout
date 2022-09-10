@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/validateform.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="container">
+    <form action="" class="form">
+      <p class="input__label">Как Вас зовут?</p>
+      <input name="Имя" type="text" placeholder="Имя*" data-validate-field="name" />
+      <p class="input__label">Укажите Ваш телефон</p>
+      <input name="Телефон" type="tel" placeholder="Телефон*" data-validate-field="tel" data-validate-rules="phone" />
+      <p class="input__label">Укажите Ваши E-mail</p>
+      <input name="E-mail" type="email" placeholder="E-mail*" data-validate-field="mail" />
+
+      <button class="btn">Заказать</button>
+
+
+    </form>
+  </div>
+
+
+  <script src="inputmask.min.js"></script>
+  <script src="just-validate.min.js"></script>
+  <script src="main.js"></script>
+  <script src="initMask.js"></script>
+
+</body>
+
+</html>

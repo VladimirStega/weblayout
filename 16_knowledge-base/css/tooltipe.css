@@ -1,0 +1,36 @@
+.tooltip {
+  max-width: 375px;
+  background-color: #fff;
+  margin-top: 70px;
+  margin-left: 55px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.marker {
+  position: relative;
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  text-align: center;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #bcbcbc;
+  color: white;
+}
+
+.marker:hover,
+.marker:focus {
+  background: #cbb468;
+}
+
+.tippy-box {
+  background-color: #666666;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tippy-arrow::before {
+  color: #666666;
+}

@@ -1,0 +1,439 @@
+@font-face {
+	font-family: 'Muller';
+	src: local('Muller-Regular'),
+		url('../fonts/MullerRegular.woff2') format('woff2'),
+		url('../fonts/MullerRegular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller';
+	src: local('Muller-Regular'),
+		url('../fonts/MullerLight.woff2') format('woff2'),
+		url('../fonts/MullerLight.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller';
+	src: local('Muller-Medium'),
+		url('../fonts/MullerMedium.woff2') format('woff2'),
+		url('../fonts/MullerMedium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Muller';
+	src: local('Muller-Bold'),
+		url('../fonts/MullerBold.woff2') format('woff2'),
+		url('../fonts/MullerBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img{
+max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+html {
+    font-family: 'Muller';
+  background: #E5E5E5;
+}
+
+.card{
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.btn{
+  display: inline-block;
+  padding: 13px 20px;
+  border: 1px solid #CC9933;
+  background-color:white;
+  border-radius: 10px;
+  color: #CC9933;
+  cursor: pointer;
+}
+
+.conteiner{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+}
+
+.header-logo{
+  margin-right: 40px;
+}
+
+.header-phone{
+  flex: 1 1 50%;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #666666;
+}
+
+.header-personal-area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.header-personal-icon{
+ display: inline-block;
+ width: 21px;
+ height: 10px;
+ background: url('../img/vector.png') center center no-repeat transparent;
+ background-size: contain;
+ margin-right: 7px;
+}
+
+.header-personal-area-link{
+  color: #CC9933;
+}
+
+.nav-header{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #fff;
+  border-radius: 15px;
+  height: 70px;
+  align-items: center;
+}
+
+.nav-list{
+  display: flex;
+}
+
+.nav-item:not(:last-child){
+  margin-right: 45px;
+}
+
+.header-img-style{
+  width: 1px;
+  height: 50px;
+  background: url('../img/2.png');
+}
+
+.nav-btn-tour{
+  margin-right: 40px;
+}
+
+.section-heading{
+padding-left: 40px;
+margin: 0;
+margin-bottom: 25px;
+font-size: 40px;
+line-height: 40px;
+color: #333333;
+}
+
+.section-specialoffers-list{
+  display: flex;
+}
+
+
+.section-specialoffers-left{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  margin-right: 12px;
+}
+
+.section-specialoffers-right{
+  flex-basis: 50%;
+  margin-left: 12px;
+}
+
+.specialoffers-right-card{
+  min-height: 100%;
+}
+
+.section-specialoffers-card {
+  display: flex;
+  align-items: flex-end;
+}
+
+.card-Maldives{
+  flex-basis: 50%;
+  margin-bottom: 23px;
+  background-image: url('../img/Rectangle\ 14.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-Crete{
+  flex-basis: 50%;
+  background-image: url('../img/Rectangle\ 15.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-luxury{
+  background-image: url('../img/33\ 1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-specialoffers-info{
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.section-specialoffers-title{
+  width: 60%;
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.section-specialoffers-price{
+  margin-bottom: 47px;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.section-specialoffers-details{
+  display: flex;
+  padding-bottom: 40px;
+  align-items: center;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFCC66;
+}
+
+.section-specialoffers-details-icon{
+ width: 22px;
+ height: 22px;
+ background: url('../img/Rectangle.svg') center center no-repeat transparent;
+ background-size: contain;
+}
+
+.card-luxury-title{
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.card-luxury-price{
+font-size: 30px;
+line-height: 30px;
+}
+
+.section-description-text{
+width: 80%;
+font-size: 16px;
+line-height: 200%;
+}
+
+.section-services-list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section-services-item{
+  max-width: 573px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 0;
+  margin-bottom: 23px;
+}
+
+.section-services-item:not(:nth-child(2n)){
+  margin-right: 23px;
+}
+
+.section-services-card{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.section-services-description{
+  width: 80%;
+  padding-left: 45px;
+  padding-top: 26px;
+  padding-bottom: 50px;
+}
+
+.section-services-link{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: #CC9933;
+}
+
+.section-services-link-icon{
+  width: 22px;
+  height: 22px;
+  background: url('../img/Rectangle.svg') center center no-repeat transparent;
+  background-size: contain;
+}
+
+.section-services-text{
+  margin: 0;
+  font-size: 16px;
+  line-height: 200%;
+  color: #000000;
+}
+
+.section-benefits-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.section-benefits-item{
+  max-width: 275px;
+  margin-bottom: 23px;
+  padding: 40px 42px 41px 45px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+
+}
+
+.section-benefits-icon{
+  margin-bottom: 10px;
+}
+.section-benefits-text{
+  margin: 0;
+}
+
+
+.section-benefits-text{
+  font-size: 16px;
+  line-height: 200%;
+  color: #000000;
+}
+
+.section-аccommodation-list{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+
+
+.section-аccommodation-item{
+  width: 374px;
+  margin-bottom: 23px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.section-аccommodation-item:not(:nth-child(3n)){
+  margin-right: 23px;
+}
+
+
+.section-аccommodation-description{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between ;
+  align-items: center;
+  padding: 35px 46px 41px 45px;
+}
+
+.rating{
+margin-left: 10px;
+}
+
+.section-аccommodation-price{
+  max-width: 180px;
+  margin:0;
+}
+
+.аccommodation-hotel-name{
+  flex-basis: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.аccommodation-city{
+  flex-basis: 100%;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.section-аccommodation-link{
+  align-items: flex-end;
+  padding: 13px 20px;
+  color: #CC9933;
+  border: 1px solid #CC9933;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.аccommodation-item-last{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url('../img/31.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.аccommodation-link-last{
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: #FFFFFF;
+}
+
+.аccommodation-link-all-icon{
+  width: 22px;
+  height: 22px;
+  background: url('../img/Rectangle 2.svg') center center no-repeat transparent;
+  background-size: contain;
+
+}
+
+.section-accommodation-card-last{
+  background: transparent;
+}

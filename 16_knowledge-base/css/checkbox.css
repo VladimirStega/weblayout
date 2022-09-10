@@ -1,0 +1,61 @@
+body {
+  padding: 20px 30px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-top: 20px;
+}
+
+label {
+  position: relative;
+  padding-left: 29px;
+  cursor: pointer;
+}
+
+.check {
+  display: none;
+}
+
+.check + span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  border: 1px solid #999;
+  border-radius: 3px;
+}
+
+.check + span:before {
+  content: url(/16_knowledge-base/img/cheked.svg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateY(-3px);
+  transition: opacity .3s ease-in-out;
+}
+
+.check:checked + span {
+  border-color: #ccb26e;
+}
+
+.check:checked + span::before {
+  opacity: 1;
+}
